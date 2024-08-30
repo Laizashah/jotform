@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fluentify Form</title>
+
+    <!-- JotForm Scripts -->
+    <script src="https://cdn03.jotfor.ms/static/prototype.forms.js?v=3.3.56471" type="text/javascript"></script>
+    <script src="https://cdn01.jotfor.ms/static/jotform.forms.js?v=3.3.56471" type="text/javascript"></script>
+    <script src="https://cdn01.jotfor.ms/s/umd/b13fc741a20/for-widgets-server.js?v=3.3.56471" type="text/javascript"></script>
+    <script src="https://cdn01.jotfor.ms/s/umd/b13fc741a20/for-form-branding-footer.js?v=3.3.56471" type="text/javascript" defer></script>
+    <script src="https://cdn02.jotfor.ms/js/vendor/smoothscroll.min.js?v=3.3.56471" type="text/javascript"></script>
+    <script src="https://cdn03.jotfor.ms/js/errorNavigation.js?v=3.3.56471" type="text/javascript"></script>
+    <script type="text/javascript">
+        JotForm.newDefaultTheme = true;
+        JotForm.extendsNewTheme = false;
+        JotForm.singleProduct = false;
+        JotForm.newPaymentUIForNewCreatedForms = true;
+        JotForm.texts = { /* Your custom texts here */ };
+        JotForm.newPaymentUI = true;
+        JotForm.originalLanguage = "en";
+        JotForm.replaceTagTest = true;
+        JotForm.clearFieldOnHide = "disable";
+        JotForm.submitError = "jumpToFirstError";
+        JotForm.isFullSource = true;
+        JotForm.init(function() {
+            /* INIT-START */
+            JotForm.alterTexts({ /* Your custom texts here */ }, true);
+            /* INIT-END */
+        });
+        setTimeout(function() {
+            JotForm.paymentExtrasOnTheFly([
+                null, null,
+                { "name": "submit2", "qid": "2", "text": "Submit", "type": "control_button" },
+                { "name": "pageBreak", "qid": "3", "text": "Page Break", "type": "control_pagebreak" },
+                null, { "name": "heading", "qid": "5", "text": "Fluentify ", "type": "control_head" },
+                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+                { "name": "typeA", "qid": "21", "text": "", "type": "control_widget" }
+            ]);
+        }, 20);
+    </script>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://cdn02.jotfor.ms/stylebuilder/static/form-common.css?v=de56e2d" />
+    <link rel="stylesheet" href="https://cdn03.jotfor.ms/themes/CSS/5e6b428acc8c4e222d1beb91.css?v=3.3.56471" />
+    <link rel="stylesheet" href="https://cdn01.jotfor.ms/css/styles/payment/payment_styles.css?3.3.56471" />
+    <link rel="stylesheet" href="https://cdn02.jotfor.ms/css/styles/payment/payment_feature.css?3.3.56471" />
+    <style>
+        @media print {
+            * {
+                -webkit-print-color-adjust: exact !important;
+                color-adjust: exact !important;
+            }
+            .form-section {
+                display: inline !important;
+            }
+            .form-pagebreak {
+                display: none !important;
+            }
+            .form-section-closed {
+                height: auto !important;
+            }
+            .page-section {
+                position: initial !important;
+            }
+        }
+
+        .form-all {
+            font-family: Inter, sans-serif;
+            max-width: 752px;
+            width: 100%;
+            font-size: 16px;
+            background-color: #f5fdff;
+            color: #005875;
+        }
+        .form-label,
+        .form-header-group .form-header,
+        .form-header-group .form-subHeader,
+        .form-sub-label,
+        .form-textbox,
+        .form-textarea,
+        .form-dropdown,
+        .form-radio-other-input,
+        .form-checkbox-other-input,
+        .form-captcha input,
+        .form-spinner input {
+            color: #005875;
+        }
+        .form-sub-label {
+            color: #1a728f;
+        }
+        .form-line-error {
+            background-color: #ffd6d6;
+        }
+        .form-line-error .form-error-message {
+            background-color: #DC2626;
+        }
+        .form-line-error .form-error-arrow {
+            border-bottom-color: #FF3200;
+        }
+        .form-line-error input:not(#coupon-input),
+        .form-line-error textarea {
+            border: 1px solid #c61515;
+            box-shadow: 0 0 3px #c61515;
+        }
+        .supernova {
+            background-color: #367c96;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center top;
+        }
+        .supernova, #stage {
+            background-image: none;
+        }
+    </style>
+</head>
+<body>
+    <form class="jotform-form" onsubmit="return typeof testSubmitFunction !== 'undefined' && testSubmitFunction();"
+          action="https://submit.jotform.com/submit/242344938618061" method="post" name="form_242344938618061" id="242344938618061" accept-charset="utf-8" autocomplete="on">
+        <input type="hidden" name="formID" value="242344938618061" />
+        <input type="hidden" id="JWTContainer" value="" />
+        <input type="hidden" id="cardinalOrderNumber" value="" />
+        <input type="hidden" id="jsExecutionTracker" name="jsExecutionTracker" value="build-date-1725007073005" />
+        <input type="hidden" id="submitSource" name="submitSource" value="unknown" />
+        <input type="hidden" id="buildDate" name="buildDate" value="1725007073005" />
+
+        <div role="main" class="form-all">
+            <ul class="form-section page-section">
+                <li id="cid_5" class="form-input-wide" data-type="control_head">
+                    <div style="display: table; width: 100%;">
+                        <div class="form-header-group hasImage header-large" data-imagealign="Left">
+                            <div class="header-logo">
+                                <img src="https://www.jotform.com/uploads/laizashah8/form_files/03820451d66e597a7205722b429e4622.66c7e8ff86bc82.82205906.jpg"
+                                     alt="Fluentify" width="900" class="header-logo-left" />
+                            </div>
+                            <div class="header-text httal htvam">
+                                <h1 id="header_5" class="form-header" data-component="header">Fluentify</h1>
+                                <div id="subHeader_5" class="form-subHeader">Makes it different</div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="form-line jf-required" data-type="control_widget" id="id_21">
+                    <label class="form-label form-label-left" id="label_21" for="input_21" aria-hidden="true">
+                        <span class="form-required">*</span>
+                    </label>
+                    <div id="cid_21" class="form-input jf-required" data-layout="full">
+                        <div data-widget-name="SMS Confirmation" style="width: 100%; text-align: left; overflow-x: auto" data-component="widget-field">
+                            <iframe data-client-id="528f536c532af5af43000004" title="SMS Confirmation" frameborder="0" scrolling="no"
+                                    allowtransparency="true" allow="geolocation; microphone; camera; autoplay; encrypted-media; fullscreen"
+                                    data-type="iframe" class="custom-field-frame" id="customFieldFrame_21" src=""
+                                    style="max-width: 350px; border: none; width: 100%; height: 100px" data-width="350" data-height="100"></iframe>
+                            <div class="widget-inputs-wrapper">
+                                <input type="hidden" id="input_21" class="form-hidden form-widget widget-required" name="q21_typeA" value="" />
+                                <input type="hidden" id="widget_settings_21" class="form-hidden form-widget-settings" />
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </form>
+</body>
+</html>
